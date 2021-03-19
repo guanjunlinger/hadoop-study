@@ -146,14 +146,8 @@ public class SecondarySort {
 
         job.setInputFormatClass(TextInputFormat.class);
         job.setOutputFormatClass(TextOutputFormat.class);
-
-        String[] otherArgs = new String[]{
-                "hdfs://localhost:9000/mr/in/goods_visit2",
-                "hdfs://localhost:9000/mr/out/secondarysort/goods_visit2"
-        };
-        FileInputFormat.setInputPaths(job, new Path(otherArgs[0]));
-        FileOutputFormat.setOutputPath(job, new Path(otherArgs[1]));
-
+        FileInputFormat.setInputPaths(job, new Path(args[0]));
+        FileOutputFormat.setOutputPath(job, new Path(args[1]));
         System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
 }

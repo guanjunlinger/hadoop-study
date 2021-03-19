@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eed98658-cfcd-40c7-b66b-b4571822cd19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/mapreduce/sort/SecondarySort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/mapreduce/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/mapreduce/WordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/mapreduce/sort/SecondarySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/mapreduce/sort/SecondarySort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/study/mapreduce/sort/SecondarySort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1423">
-              <caret line="135" column="28" selection-start-line="135" selection-start-column="28" selection-end-line="135" selection-end-column="28" />
+            <state relative-caret-position="642">
+              <caret line="152" column="10" lean-forward="true" selection-start-line="152" selection-start-column="10" selection-end-line="152" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#IntPair#0;class#SecondarySort#0" />
@@ -59,8 +60,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/study/mapreduce/WordCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/study/mapreduce/sort/SecondarySort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/study/mapreduce/WordCount.java" />
       </list>
     </option>
   </component>
@@ -136,7 +137,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1616135736874" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1616135987244" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -172,10 +173,18 @@
       <workItem from="1608520877579" duration="6751000" />
       <workItem from="1609148769607" duration="1006000" />
     </task>
+    <task id="LOCAL-00001" summary="二次排序">
+      <created>1616135802897</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616135802897</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12591000" />
+    <option name="totallyTimeSpent" value="12841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -215,6 +224,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="二次排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="二次排序" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.9.2/hadoop-mapreduce-client-core-2.9.2.jar!/org/apache/hadoop/mapred/Mapper.class">
@@ -312,16 +325,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/study/mapreduce/WordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.9.2/hadoop-mapreduce-client-core-2.9.2.jar!/org/apache/hadoop/mapreduce/Mapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="533">
@@ -410,15 +413,25 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.9.2/hadoop-mapreduce-client-core-2.9.2.jar!/org/apache/hadoop/mapreduce/Job.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="670" column="44" lean-forward="true" selection-start-line="670" selection-start-column="44" selection-end-line="670" selection-end-column="44" />
+        <state relative-caret-position="298">
+          <caret line="845" column="19" selection-start-line="845" selection-start-column="19" selection-end-line="845" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/study/mapreduce/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1674">
+          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/study/mapreduce/sort/SecondarySort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1423">
-          <caret line="135" column="28" selection-start-line="135" selection-start-column="28" selection-end-line="135" selection-end-column="28" />
+        <state relative-caret-position="642">
+          <caret line="152" column="10" lean-forward="true" selection-start-line="152" selection-start-column="10" selection-end-line="152" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#IntPair#0;class#SecondarySort#0" />
