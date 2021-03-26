@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eed98658-cfcd-40c7-b66b-b4571822cd19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hadoop源码解析.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/Hadoop源码解析.xmind" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -126,9 +125,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1616670077659" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1616675974797" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../recommendersystem" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -174,11 +173,18 @@
       <option name="project" value="LOCAL" />
       <updated>1616135802897</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="容器启动">
+      <created>1616675530983</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616675530983</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31304000" />
+    <option name="totallyTimeSpent" value="32269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -223,7 +229,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="二次排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="二次排序" />
+    <MESSAGE value="容器启动" />
+    <option name="LAST_COMMIT_MESSAGE" value="容器启动" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.9.2/hadoop-mapreduce-client-core-2.9.2.jar!/org/apache/hadoop/mapreduce/lib/input/SequenceFileRecordReader.class">
