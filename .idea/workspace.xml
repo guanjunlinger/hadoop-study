@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eed98658-cfcd-40c7-b66b-b4571822cd19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LocalizedResource.pos" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hadoop源码解析.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/Hadoop源码解析.xmind" afterDir="false" />
     </list>
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/study/mapreduce/sort/SecondarySort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="131" column="47" lean-forward="true" selection-start-line="131" selection-start-column="47" selection-end-line="131" selection-end-column="47" />
+            <state relative-caret-position="305">
+              <caret line="134" column="42" selection-start-line="134" selection-start-column="42" selection-end-line="134" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#IntPair#0;class#SecondarySort#0" />
@@ -169,7 +168,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617151551683" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617151773046" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../recommendersystem" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -209,7 +208,7 @@
       <workItem from="1616578232146" duration="521000" />
       <workItem from="1616578782047" duration="222000" />
       <workItem from="1616579030849" duration="598000" />
-      <workItem from="1617151209259" duration="521000" />
+      <workItem from="1617151209259" duration="1159000" />
     </task>
     <task id="LOCAL-00001" summary="二次排序">
       <created>1616135802897</created>
@@ -225,11 +224,18 @@
       <option name="project" value="LOCAL" />
       <updated>1617027769393</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="MR 状态机">
+      <created>1617151751481</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617151751481</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34768000" />
+    <option name="totallyTimeSpent" value="35587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="773" extended-state="6" />
@@ -275,7 +281,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="二次排序" />
     <MESSAGE value="状态机" />
-    <option name="LAST_COMMIT_MESSAGE" value="状态机" />
+    <MESSAGE value="MR 状态机" />
+    <option name="LAST_COMMIT_MESSAGE" value="MR 状态机" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.9.2/hadoop-common-2.9.2.jar!/org/apache/hadoop/fs/LocalFileSystem.class">
@@ -608,19 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/study/mapreduce/sort/SecondarySort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="132" column="25" selection-start-line="132" selection-start-column="25" selection-end-line="132" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#IntPair#0;class#SecondarySort#0" />
-            <element signature="class#GroupingComparator#0;class#SecondarySort#0" />
-            <element signature="method#map#0;class#Map#0;class#SecondarySort#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.9.2/hadoop-mapreduce-client-core-2.9.2.jar!/org/apache/hadoop/mapreduce/Job.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -664,6 +658,19 @@
             <element signature="e#6581#6582#0" expanded="true" />
             <element signature="e#18637#18638#0" expanded="true" />
             <element signature="e#18692#18693#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/study/mapreduce/sort/SecondarySort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="134" column="42" selection-start-line="134" selection-start-column="42" selection-end-line="134" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#IntPair#0;class#SecondarySort#0" />
+            <element signature="class#GroupingComparator#0;class#SecondarySort#0" />
+            <element signature="method#map#0;class#Map#0;class#SecondarySort#0" />
           </folding>
         </state>
       </provider>
