@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eed98658-cfcd-40c7-b66b-b4571822cd19" name="Default Changelist" comment="MR 驱动实体" />
+    <list default="true" id="eed98658-cfcd-40c7-b66b-b4571822cd19" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hadoop源码解析.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/Hadoop源码解析.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/离线和实时大数据开发.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/离线和实时大数据开发.xmind" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,10 +65,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="1" />
-    <option name="width" value="1940" />
-    <option name="height" value="1100" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -125,7 +129,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617378749912" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617638516354" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../recommendersystem" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -202,11 +206,18 @@
       <option name="project" value="LOCAL" />
       <updated>1617331122128</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="MR 驱动实体">
+      <created>1617378756728</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617378756728</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38748000" />
+    <option name="totallyTimeSpent" value="39958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="773" extended-state="6" />
@@ -226,7 +237,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32866043" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32866043" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -253,9 +264,9 @@
     <MESSAGE value="二次排序" />
     <MESSAGE value="状态机" />
     <MESSAGE value="MR 状态机" />
-    <MESSAGE value="MR 驱动实体" />
     <MESSAGE value="task 中间输入输出" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 中间输入输出" />
+    <MESSAGE value="MR 驱动实体" />
+    <option name="LAST_COMMIT_MESSAGE" value="MR 驱动实体" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.9.2/hadoop-common-2.9.2.jar!/org/apache/hadoop/fs/LocalFileSystem.class">
