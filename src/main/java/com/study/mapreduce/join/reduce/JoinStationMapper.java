@@ -1,4 +1,4 @@
-package com.study.mapreduce.join;
+package com.study.mapreduce.join.reduce;
 
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
@@ -6,7 +6,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
 
-public class JoinStationMapper extends Mapper<LongWritable,Text,TextPair, Text> {
+public class JoinStationMapper extends Mapper<LongWritable,Text, TextPair, Text> {
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         String line = value.toString();
         String[] arr = line.split("\\s+");

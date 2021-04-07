@@ -1,4 +1,4 @@
-package com.study.mapreduce.join;
+package com.study.mapreduce.join.reduce;
 
 
 import org.apache.hadoop.io.LongWritable;
