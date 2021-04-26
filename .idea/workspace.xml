@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="eed98658-cfcd-40c7-b66b-b4571822cd19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application.pos" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Container.pos" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalizedResource.pos" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RMApp.pos" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RMAppAttempt.pos" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RMContainer.pos" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RMNode.pos" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Yarn 源码.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/Yarn 源码.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hadoop.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,11 +79,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="40" />
-    <option name="width" value="2520" />
-    <option name="height" value="1440" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="2" />
+    <option name="width" value="1044" />
+    <option name="height" value="698" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -99,53 +93,13 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="hadoop-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1618498760351" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1618502705889" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -156,6 +110,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gitRepository\hadoop-study" />
       <recent name="D:\gitRepository\hadoop-study\src\main\java\com\study\mapreduce\join\SemiJoin" />
     </key>
   </component>
@@ -195,7 +150,8 @@
       <workItem from="1617753543461" duration="601000" />
       <workItem from="1617800811367" duration="529000" />
       <workItem from="1618128913605" duration="1885000" />
-      <workItem from="1618490814137" duration="922000" />
+      <workItem from="1618490814137" duration="1577000" />
+      <workItem from="1619272120441" duration="1199000" />
     </task>
     <task id="LOCAL-00001" summary="二次排序">
       <created>1616135802897</created>
@@ -316,16 +272,30 @@
       <option name="project" value="LOCAL" />
       <updated>1618490826333</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="MR 分布式资源调度">
+      <created>1618498758686</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1618498758686</updated>
+    </task>
+    <task id="LOCAL-00019" summary="MR 分布式资源调度">
+      <created>1618498776815</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1618498776815</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55809000" />
+    <option name="totallyTimeSpent" value="57663000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="20" width="1260" height="720" extended-state="0" />
+    <frame x="-6" y="-6" width="1293" height="773" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3311148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32793522" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -343,7 +313,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32554516" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.3293718" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.30218068" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="bottom" id="Tool Output" order="14" />
