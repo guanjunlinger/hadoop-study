@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eed98658-cfcd-40c7-b66b-b4571822cd19" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yarn 源码.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/Yarn 源码.xmind" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="eed98658-cfcd-40c7-b66b-b4571822cd19" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,7 +95,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1618502705889" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1619395866759" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -151,7 +147,7 @@
       <workItem from="1617800811367" duration="529000" />
       <workItem from="1618128913605" duration="1885000" />
       <workItem from="1618490814137" duration="1577000" />
-      <workItem from="1619272120441" duration="1199000" />
+      <workItem from="1619272120441" duration="1492000" />
     </task>
     <task id="LOCAL-00001" summary="二次排序">
       <created>1616135802897</created>
@@ -286,11 +282,18 @@
       <option name="project" value="LOCAL" />
       <updated>1618498776815</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="MR 分布式资源调度">
+      <created>1619395651267</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1619395651267</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57663000" />
+    <option name="totallyTimeSpent" value="57956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="773" extended-state="6" />
